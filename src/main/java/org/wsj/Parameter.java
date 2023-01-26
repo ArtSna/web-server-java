@@ -11,7 +11,6 @@ public class Parameter {
 	
 	public Parameter(URI uri) {
 		try {
-			System.out.println(uri.toString());
 			String[] splited = uri.toString().split("\\?");
 			this.path = splited[0];
 			
