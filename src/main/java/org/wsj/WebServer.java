@@ -51,6 +51,7 @@ public class WebServer {
 		}
 		
 		server.start();
+		System.out.println("Server started."); 
 	}
 
 	public void stop(int delay) {
