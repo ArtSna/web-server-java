@@ -12,7 +12,7 @@ public static void main(String[] args) {
     Router.get("/", (request) -> {
 		return "Hello World!";
 	});
-		
+	
 	server.start();
 }
 ```
@@ -25,6 +25,6 @@ Maven
 <dependency>
     <groupId>com.github.TakuiasH</groupId>
     <artifactId>web-server-java</artifactId>
-    <version>Tag</version>
+	<version>0.0.1-SNAPSHOT</version>
 </dependency>
 ```
